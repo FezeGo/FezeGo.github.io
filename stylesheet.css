@@ -140,3 +140,57 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.research-list {
+  width: 100%;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin: 0 auto;
+}
+
+.research-content {
+  padding: 14px 16px 22px 30px;
+}
+
+.research-list tr:not(:last-child) .research-content {
+  padding-bottom: 30px;
+}
+
+.research-title {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.35;
+
+  margin-bottom: 6px;
+}
+
+.research-tags {
+  margin-bottom: 9px;
+}
+
+.research-tags span {
+  display: inline-block;
+
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+
+  color: #666;
+  background-color: #f1f1f1;
+
+  padding: 3px 7px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+
+  border-radius: 4px;
+}
+
+.research-content p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}

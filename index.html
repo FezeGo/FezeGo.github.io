@@ -67,58 +67,84 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
-                <td style="padding:16px;width:100%;vertical-align:middle">
+                <td style="padding:16px 16px 8px 16px;width:100%;vertical-align:middle">
                   <h2>Research</h2>
-                  <p>
+                  <p class="research-intro">
                     Selected research projects on language models, interpretability, multilingual NLP, and model evaluation.
                   </p>
                 </td>
               </tr>
             </tbody>
           </table>
-          
-          <table
-            style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-          
-              <tr>
-                <td style="padding:16px;width:100%;vertical-align:middle">
-                  <b>Layer-wise Lexical Accessibility in Language Models</b><br>
-                  <i>Master’s Thesis, University of Tübingen</i>
-                  <p>
-                    I study when predefined target tokens become accessible across model layers using the plain Logit Lens,
-                    with comparisons across English and Chinese, semantic groups, and model scales.
-                    I also analyze cases in which an accessible target is later replaced by a different final prediction.
-                  </p>
-                </td>
-              </tr>
-          
-              <tr>
-                <td style="padding:16px;width:100%;vertical-align:middle">
-                  <b>Multilingual Polarization Detection</b><br>
-                  <i>SemEval-2026 Task 9</i>
-                  <p>
-                    I worked on multilingual text classification across 22 languages, focusing on model behavior under
-                    sparse and distribution-shifted conditions.
-                  </p>
-                </td>
-              </tr>
-          
-              <tr>
-                <td style="padding:16px;width:100%;vertical-align:middle">
-                  <b>Schema Anonymization in Text-to-SQL</b>
-                  <p>
-                    I investigated how progressively removing lexical information from database schemas affects
-                    LLM-based Text-to-SQL performance, with controlled comparisons across joins, aggregation,
-                    nested queries, and other query types.
-                  </p>
-                </td>
-              </tr>
-          
-            </tbody>
-          </table>
 
-          <!-- <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> -->
+<table class="research-list">
+  <tbody>
+
+    <tr>
+      <td class="research-content">
+        <div class="research-title">
+          Layer-wise Lexical Accessibility in Language Models
+        </div>
+
+        <div class="research-tags">
+          <span>Interpretability</span>
+          <span>Language Models</span>
+          <span>Multilingual NLP</span>
+        </div>
+
+        <p>
+          I study when predefined target tokens become accessible across model layers using the plain Logit Lens,
+          with comparisons across English and Chinese, semantic groups, and model scales.
+          I also analyze cases in which an accessible target is later replaced by a different final prediction.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="research-content">
+        <div class="research-title">
+          Multilingual Polarization Detection
+        </div>
+
+        <div class="research-tags">
+          <span>Multilingual NLP</span>
+          <span>Classification</span>
+          <span>Robustness</span>
+        </div>
+
+        <p>
+          I worked on multilingual text classification across 22 languages, focusing on model behavior under
+          sparse and distribution-shifted conditions.
+        </p>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="research-content">
+        <div class="research-title">
+          Schema Anonymization in Text-to-SQL
+        </div>
+
+        <div class="research-tags">
+          <span>Text-to-SQL</span>
+          <span>LLM Evaluation</span>
+          <span>Schema Semantics</span>
+        </div>
+
+        <p>
+          I investigated how progressively removing lexical information from database schemas affects
+          LLM-based Text-to-SQL performance, with controlled comparisons across joins, aggregation,
+          nested queries, and other query types.
+        </p>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+          
+          
+          
+<!-- <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> -->
 
 <!-- <tr onmouseout="nexf_stop()" onmouseover="nexf_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
@@ -212,8 +238,6 @@
               </td>
             </tr>
 						
-						
-           
             <tr>
               <td align="center" style="padding:16px;width:20%;vertical-align:middle">
 						     <div class="colored-box" style="background-color: #edd892;">
