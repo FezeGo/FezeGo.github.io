@@ -194,3 +194,38 @@ span.highlight {
   line-height: 1.5;
   color: #333;
 }
+
+.research-interests li {
+  margin-bottom: 8px;
+}
+
+
+.profile-links {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.profile-links a {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 6px 10px;
+
+  font-size: 14px;
+  text-decoration: none;
+
+  border-radius: 6px;
+}
+
+.profile-links i {
+  margin-right: 4px;
+}
+
+.profile-links a {
+  color: #4f6480;
+  background-color: #f1f4f8;
+}
+
+.profile-links a:hover {
+  color: #3f536d;
+  background-color: #e7edf4;
+}
