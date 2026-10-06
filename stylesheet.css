@@ -145,17 +145,17 @@ span.highlight {
 
 .profile-links {
   text-align: center;
-  margin-top: 16px;
+  margin-top: 22px;
+  margin-bottom: 0;
 }
 
 .profile-links a {
   display: inline-block;
-  margin: 0 5px;
+  margin: 0 5px 6px 5px;
   padding: 6px 10px;
 
   font-size: 14px;
   text-decoration: none;
-
   border-radius: 6px;
 }
 
